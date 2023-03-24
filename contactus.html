@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+
+    <style type="text/css">
+
+        *{
+            margin: 0;
+            padding: 0;
+          }
+
+     body{
+          background: #FFE8EC;
+          font-size: 14px;
+          font-family: 'Poppins', sans-serif;
+        }
+
+        .container{
+
+               width: 80%;
+               margin: 50px auto;
+
+        }
+
+         .contact-box {
+
+          background: #fff;
+           display: flex;
+
+         }
+
+        .contact-left{
+
+            flex-basis: 60%;
+            padding: 40px 60px;
+
+        }
+
+        .contact-right{
+
+             flex-basis: 40%;
+             padding: 40px;
+             background: #ff523b;
+             color: #fff;
+
+            }
+
+        h1{
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            color:#555;
+
+        }
+   
+        .container p{
+
+           margin-bottom: 10px;
+
+        }
+
+        .input-row{
+
+            display:inline;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+        }
+
+        .input-group{
+
+              margin: 15px;
+              border: none;
+              border-bottom: 1px solid #ccc;
+              outline: none;
+              padding-bottom: 5px;
+           
+            }
+
+        input[type=text]{
+            
+            border: none;
+        }
+        input[type=email]{
+            border: none;
+        }
+
+        textarea{
+
+              width: 100%;
+              border: 1px solid #ccc;
+              outline: none;
+              padding: 10px;
+              box-sizing: border-box;
+              
+        }
+
+        label{
+
+            margin-bottom: 6px;
+            display: block;
+            color: #ff523b;
+
+        }
+
+        .one{
+
+         display: inline-flex;
+
+        }
+
+        .two{
+
+         display: inline-flex;
+
+        }
+
+        button{
+
+           background: #ff523b;
+           width: 80px;
+           border: none;
+           outline: none;
+           color: #fff;
+           height: 20px;
+           border-radius: 15px;
+           margin-top: 10px;
+           box-shadow: 0px 5px 15px 0px rgba(12, 12, 12, 0.3);
+        }
+
+        tr td:first-child{
+
+             padding-right: 20px;
+
+        }
+
+        tr td{
+
+          padding-top: 20px;
+
+        }
+
+    .container .connect h1::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color:#ff523b;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+    </style>
+
+</head>
+
+
+
+<!-- Contact us -->
+<body>
+    <div class="container">
+        
+        <h1 class="connect">Connect with us</h1>
+        <p>We would love to respond to your queries and help you succeed.
+        <br>Feel Free to get in touch with us</p>
+
+        <div class="contact-box">
+          <div class="contact-left">
+              <h3>Sent your request</h3>
+              <form>
+
+                <div class="input-row">
+
+                    <div class="one">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your Name">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input type="text" placeholder="Your Phone Number">
+                    </div>
+                    </div>
+  
+                    <div class="two">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="Your Email">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Product Demo ">
+                    </div>
+                    </div>
+
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+
+                     <button type="submit">Send</button>
+
+
+
+
+                </div> 
+
+
+
+
+              </form>
+
+
+          </div>
+            
+          <div class="contact-right">
+            <h3>Reach Us</h3>
+
+            <table>
+                <tr>
+                    
+                   <td>Email :</td>
+                   <td>support@beautyandbling.com</td>
+
+                </tr>
+            </table>
+            
+            <table>
+                <tr>
+                    
+                   <td>Phone :</td>
+                   <td>+91 7654532431</td>
+
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    
+                   <td>Address :</td>
+                   <td><br>407 , TAC Towers , GB Road , Delhi<br>Pincode-110006</td>
+
+                </tr>
+            </table>
+            
+          </div>
+        
+        
+        
+        </div>
+
+    </div>
+
+</body>
+</html>

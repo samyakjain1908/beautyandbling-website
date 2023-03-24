@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Beauty & Bling</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/13e7a00b74.js"></script>
+    <link rel="shortcut icon" href="images/baricon.ico">
+</head>
+<body>
+    
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" width="180px"></a>
+        </div>
+        <nav>
+            <ul id="menuitems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="allprodp1.html">Products</a></li>
+                <li><a href="aboutt.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="images/bagicon.png" width="30px" height="30px">
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    
+
+</div>
+
+<!-- ----------------------------cart items details------------------------------ -->
+
+<div class="small-container cart-page">
+<table>
+    <tr>
+    <th>Product</th>
+    <th>Quantity</th>
+    <th>Subtotal</th>
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="images/necklace5.1.jpeg">
+                <div>
+                    <p>Heart Pendant</p>
+                    <small>&#x20B9; 209</small>
+                    <br>
+                    <a href="">Remove</a>
+                
+                </div>
+            </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>&#x20B9; 209</td>
+
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="images/earing2.1.jpg">
+                <div>
+                    <p>Flower drop Earrings</p>
+                    <small>&#x20B9; 399</small>
+                    <br>
+                    <a href="">Remove</a>
+                
+                </div>
+            </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>&#x20B9; 399</td>
+
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="images/ring3.3.jpg">
+                <div>
+                    <p>Silver Gem Ring</p>
+                    <small>&#x20B9; 1199</small>
+                    <br>
+                    <a href="">Remove</a>
+                
+                </div>
+            </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>&#x20B9; 1199</td>
+
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="images/bracelet2.4.jpg">
+                <div>
+                    <p>Infinity Heart Bangle</p>
+                    <small>&#x20B9; 499</small>
+                    <br>
+                    <a href="">Remove</a>
+                
+                </div>
+            </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>&#x20B9; 499</td>
+
+    </tr>
+</table>
+<div class="total-price">
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td>&#x20B9; 2306</td>
+        </tr>
+        <tr>
+            <td>Tax &#64;18 &#37; </td>
+            <td>&#x20B9; 415</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>&#x20B9; 2721</td>
+        </tr>
+    </table>
+</div>
+
+</div>
+
+<!------------Footer-------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App </h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <a href="https://play.google.com/store"><img src="images/playstore.png"></a>
+                    <a href="https://www.apple.com/in/app-store/"><img src="images/applestore.png"></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/companylogo.png" width="180px">
+                <p>Our aim is to get full marks in Project...XD!</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Posts</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - Web Technologies Project</p>
+    </div>
+</div>
+<!---------js for toggle menu------->
+<script>
+    var menuitems=document.getElementById("menuitems")
+
+    menuitems.style.maxHeight="0px";
+
+    function menutoggle(){
+        if (menuitems.style.maxHeight=="0px")
+        {
+            menuitems.style.maxHeight="200px"
+        }
+        else{
+            menuitems.style.maxHeight="0px"
+        }
+    }
+</script>
+
+</body>
+</html>
